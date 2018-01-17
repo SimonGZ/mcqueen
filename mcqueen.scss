@@ -173,7 +173,7 @@ a {
     widows: $action-widows;
   }
 
-  .dialog {
+  .dialog, .dialogueBlock {
     width: 75%;
     max-width: 4in;
     margin-top: 1em;
@@ -185,7 +185,7 @@ a {
       margin-bottom: 0;
       margin-left: 25%;
     }
-    .lines {
+    .lines, .dialogue {
       max-width: 3.5in;
       margin-top: 0;
       margin-bottom: 0;
@@ -193,7 +193,7 @@ a {
       orphans: $dialog-orphans;
       widows: $dialog-widows;
     }
-    .paren {
+    .paren, .parenthetical {
       max-width: 2in;
       margin-top: 0;
       margin-bottom: 0;
@@ -204,23 +204,23 @@ a {
     }
   }
 
-  .dual-dialog {
+  .dual-dialog, .dualDialogueBlock {
     width: 100%;
     margin: 1em 0;
-    .dialog {
+    .dialog, .dialogueBlock {
       max-width: 50%;
       margin-top: 0;
       margin-left: 0;
       margin-right: 0;
       float: left;
       clear: none;
-      .lines {
+      .lines, .dialogue {
         width: 95%;
       }
     }
   }
 
-  .trans {
+  .trans, .transition {
     max-width: 2in;
     margin-left: 63%;
     clear: both;
