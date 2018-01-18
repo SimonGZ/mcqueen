@@ -156,7 +156,7 @@ a {
     width: 100%;
   }
 
-  .scene-heading {
+  .scene-heading, .sceneHeading {
     @if $scene-bold { font-weight: bold; }
     @if $scene-underline { text-decoration: underline; }
     margin-bottom: 0;
